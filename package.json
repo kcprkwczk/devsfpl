@@ -1,0 +1,29 @@
+{
+  "name": "agent-studio-modul-6-7",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Przyklady kodu do kursu AI with Agent Studio - moduly 6 i 7. Sklonuj, wpisz klucz API i odpalaj.",
+  "scripts": {
+    "6.1": "tsx modul-06/6-1-workflow-czy-agent/przyklad.ts",
+    "6.2:routing": "tsx modul-06/6-2-piec-wzorcow/routing.ts",
+    "6.2:ewaluator": "tsx modul-06/6-2-piec-wzorcow/ewaluator.ts",
+    "6.3": "tsx modul-06/6-3-anatomia-petli/przyklad.ts",
+    "6.4": "tsx modul-06/6-4-sterowanie-guardraile/przyklad.ts",
+    "6.5": "tsx modul-06/6-5-multi-agent/przyklad.ts",
+    "7.1": "tsx modul-07/7-1-kontekst-jako-budzet/przyklad.ts",
+    "7.1:kompakcja": "tsx modul-07/7-1-kontekst-jako-budzet/przyklad-kompakcja.ts",
+    "7.2": "tsx modul-07/7-2-pamiec/przyklad.ts",
+    "7.3": "tsx modul-07/7-3-zmyslanie-grounding/przyklad.ts",
+    "7.3:grounding": "tsx modul-07/7-3-zmyslanie-grounding/przyklad-grounding.ts",
+    "7.4": "tsx modul-07/7-4-evale-observability/przyklad.ts"
+  },
+  "dependencies": {
+    "openai": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
